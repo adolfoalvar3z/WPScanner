@@ -1,0 +1,37 @@
+Module,Endpoint,Status,Size,Findings
+Recon,https://4juzgadofamiliasantiago.cl/,200,236052,OS: Desconocido | PHP: 8.3.30 | WP: 6.9.4 | WAF: No detectado | WP Vulnerabilities: Sin CVEs conocidos
+Security Headers,https://4juzgadofamiliasantiago.cl/,200,236052,"Faltan cabeceras de seguridad: X-Frame-Options, X-Content-Type-Options, Strict-Transport-Security, Referrer-Policy"
+Theme Version,https://4juzgadofamiliasantiago.cl/wp-content/themes/kadence/style.css,200,1348,Tema activo expuesto: kadence (v1.4.5)
+Port Scan,4juzgadofamiliasantiago.cl,N/A,0,"Puertos Abiertos: 80/HTTP, 443/HTTPS"
+SSL-TLS Audit,4juzgadofamiliasantiago.cl:443,N/A,0,Debilidades SSL/TLS detectadas: Fallo al verificar certificado (SSL handshake error)
+XML-RPC,https://4juzgadofamiliasantiago.cl/xmlrpc.php,405,42,"XML-RPC Activo y Funcional | system.multicall expuesto | pingback.ping expuesto | Listado Info: wp.getUsers, wp.getUsersBlogs, wp.getAuthors, wp.getProfile, wp.getOptions, wp.getComments, wp.getTaxonomies"
+REST Users,https://4juzgadofamiliasantiago.cl/wp-json/wp/v2/users,200,856,Enumeración global expuesta (/users) | Usuario ID 1 expuesto (/users/1)
+Author Enum,https://4juzgadofamiliasantiago.cl/?author=1,200,146136,Author redirect: https://4juzgadofamiliasantiago.cl/author/mauricio-quiroz-bellogmail-com/
+Login Enum,https://4juzgadofamiliasantiago.cl/wp-login.php,200,10187,
+WP-Cron,https://4juzgadofamiliasantiago.cl/wp-cron.php,200,0,wp-cron expuesto | Impacto DoS: 8.8x ralentización
+Classic Files,https://4juzgadofamiliasantiago.cl/robots.txt,200,127,Archivo Clásico: robots.txt
+Scanner,https://4juzgadofamiliasantiago.cl/wp-login.php,200,9767,Title: Acceder < 4° Juzgado de Familia de Santiago — WordPress | KWs: wp-core
+Scanner,https://4juzgadofamiliasantiago.cl/wp-admin/,302,0,Redirección Interesante: https://4juzgadofamiliasantiago.cl/wp-login.php?redirect_to=https%3A%2F%2F4juzgadofamiliasantiago.cl%2Fwp-admin%2F&reauth=1
+Scanner,https://4juzgadofamiliasantiago.cl/wp-admin/index.php,302,0,Redirección Interesante: https://4juzgadofamiliasantiago.cl/wp-login.php?redirect_to=https%3A%2F%2F4juzgadofamiliasantiago.cl%2Fwp-admin%2Findex.php&reauth=1
+Scanner,https://4juzgadofamiliasantiago.cl/wp-admin/options.php,302,0,Redirección Interesante: https://4juzgadofamiliasantiago.cl/wp-login.php?redirect_to=https%3A%2F%2F4juzgadofamiliasantiago.cl%2F&reauth=1
+Scanner,https://4juzgadofamiliasantiago.cl/wp-admin/options-general.php,302,0,Redirección Interesante: https://4juzgadofamiliasantiago.cl/wp-login.php?redirect_to=https%3A%2F%2F4juzgadofamiliasantiago.cl%2Fwp-admin%2Foptions-general.php&reauth=1
+Scanner,https://4juzgadofamiliasantiago.cl/wp-admin/options-writing.php,302,0,Redirección Interesante: https://4juzgadofamiliasantiago.cl/wp-login.php?redirect_to=https%3A%2F%2F4juzgadofamiliasantiago.cl%2Fwp-admin%2Foptions-writing.php&reauth=1
+Scanner,https://4juzgadofamiliasantiago.cl/wp-admin/options-reading.php,302,0,Redirección Interesante: https://4juzgadofamiliasantiago.cl/wp-login.php?redirect_to=https%3A%2F%2F4juzgadofamiliasantiago.cl%2Fwp-admin%2Foptions-reading.php&reauth=1
+Scanner,https://4juzgadofamiliasantiago.cl/wp-admin/users.php,302,0,Redirección Interesante: https://4juzgadofamiliasantiago.cl/wp-login.php?redirect_to=https%3A%2F%2F4juzgadofamiliasantiago.cl%2Fwp-admin%2Fusers.php&reauth=1
+Scanner,https://4juzgadofamiliasantiago.cl/wp-admin/user-edit.php,302,0,Redirección Interesante: https://4juzgadofamiliasantiago.cl/wp-login.php?redirect_to=https%3A%2F%2F4juzgadofamiliasantiago.cl%2Fwp-admin%2Fuser-edit.php&reauth=1
+Scanner,https://4juzgadofamiliasantiago.cl/wp-admin/profile.php,302,0,Redirección Interesante: https://4juzgadofamiliasantiago.cl/wp-login.php?redirect_to=https%3A%2F%2F4juzgadofamiliasantiago.cl%2Fwp-admin%2Fprofile.php&reauth=1
+Scanner,https://4juzgadofamiliasantiago.cl/wp-admin/plugins.php,302,0,Redirección Interesante: https://4juzgadofamiliasantiago.cl/wp-login.php?redirect_to=https%3A%2F%2F4juzgadofamiliasantiago.cl%2Fwp-admin%2Fplugins.php&reauth=1
+Scanner,https://4juzgadofamiliasantiago.cl/wp-admin/plugin-install.php,302,0,Redirección Interesante: https://4juzgadofamiliasantiago.cl/wp-login.php?redirect_to=https%3A%2F%2F4juzgadofamiliasantiago.cl%2Fwp-admin%2Fplugin-install.php&reauth=1
+Scanner,https://4juzgadofamiliasantiago.cl/wp-admin/themes.php,302,0,Redirección Interesante: https://4juzgadofamiliasantiago.cl/wp-login.php?redirect_to=https%3A%2F%2F4juzgadofamiliasantiago.cl%2Fwp-admin%2Fthemes.php&reauth=1
+Scanner,https://4juzgadofamiliasantiago.cl/wp-admin/theme-editor.php,302,0,Redirección Interesante: https://4juzgadofamiliasantiago.cl/wp-login.php?redirect_to=https%3A%2F%2F4juzgadofamiliasantiago.cl%2Fwp-admin%2Ftheme-editor.php&reauth=1
+Scanner,https://4juzgadofamiliasantiago.cl/wp-admin/plugin-editor.php,302,0,Redirección Interesante: https://4juzgadofamiliasantiago.cl/wp-login.php?redirect_to=https%3A%2F%2F4juzgadofamiliasantiago.cl%2Fwp-admin%2Fplugin-editor.php&reauth=1
+Scanner,https://4juzgadofamiliasantiago.cl/wp-admin/post.php,302,0,Redirección Interesante: https://4juzgadofamiliasantiago.cl/wp-login.php?redirect_to=https%3A%2F%2F4juzgadofamiliasantiago.cl%2Fwp-admin%2Fpost.php&reauth=1
+Scanner,https://4juzgadofamiliasantiago.cl/wp-admin/post-new.php,302,0,Redirección Interesante: https://4juzgadofamiliasantiago.cl/wp-login.php?redirect_to=https%3A%2F%2F4juzgadofamiliasantiago.cl%2Fwp-admin%2Fpost-new.php&reauth=1
+Scanner,https://4juzgadofamiliasantiago.cl/wp-admin/edit.php,302,0,Redirección Interesante: https://4juzgadofamiliasantiago.cl/wp-login.php?redirect_to=https%3A%2F%2F4juzgadofamiliasantiago.cl%2Fwp-admin%2Fedit.php&reauth=1
+Scanner,https://4juzgadofamiliasantiago.cl/wp-admin/upload.php,302,0,Redirección Interesante: https://4juzgadofamiliasantiago.cl/wp-login.php?redirect_to=https%3A%2F%2F4juzgadofamiliasantiago.cl%2Fwp-admin%2Fupload.php&reauth=1
+Scanner,https://4juzgadofamiliasantiago.cl/wp-admin/media-new.php,302,0,Redirección Interesante: https://4juzgadofamiliasantiago.cl/wp-login.php?redirect_to=https%3A%2F%2F4juzgadofamiliasantiago.cl%2Fwp-admin%2Fmedia-new.php&reauth=1
+Scanner,https://4juzgadofamiliasantiago.cl/wp-json/,200,658635,Title:  | KWs: 
+Scanner,https://4juzgadofamiliasantiago.cl/wp-cron.php,200,0,Title:  | KWs: 
+Scanner,https://4juzgadofamiliasantiago.cl/readme.html,200,7425,Title: WordPress › ReadMe | KWs: 
+Scanner,https://4juzgadofamiliasantiago.cl/robots.txt,200,127,Title:  | KWs: 
+Scanner,https://4juzgadofamiliasantiago.cl/sitemap.xml,301,0,Redirección Interesante: https://4juzgadofamiliasantiago.cl/wp-sitemap.xml

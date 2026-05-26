@@ -1,0 +1,13 @@
+============================================================
+INFORME DE VULNERABILIDADES - https://catemuco.cl/
+============================================================
+
+[!] HALLAZGOS CRÍTICOS / EXPLOTABLES
+----------------------------------------
+Endpoint: https://catemuco.cl/phpinfo.php
+Hallazgo: Archivo Clásico: phpinfo.php
+--------------------
+Endpoint: https://catemuco.cl/wp-config.php.dist
+Hallazgo: Archivo Clásico: wp-config.php.dist
+--------------------
+

@@ -1,0 +1,9 @@
+requests
+beautifulsoup4
+colorama
+tqdm
+streamlit
+pandas
+plotly
+fpdf2
+httpx
